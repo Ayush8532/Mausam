@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
 
-    
-    }
-    .container {
+
+}
+
+.container {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,8 +17,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    }
-    .box {
+}
+
+.box {
     width: 25%;
     height: 60vh;
     background-color: #a5bbdd;
@@ -26,38 +29,45 @@
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
-    }
-    .inputData {
+}
+
+.inputData {
     padding: 20px;
-    }
-    .inputData input {
+}
+
+.inputData input {
     padding: 10px;
     width: 100%;
     outline: none;
     border: none;
     font-size: 20px;
     border-radius: 10px;
-    }
-    i {
+}
+
+i {
     font-size: 50px;
     margin-right: 10px;
     color: white;
-    }
-    .info {
+}
+
+.info {
     margin-top: 30%;
-    }
-    .info .temp {
+}
+
+.info .temp {
     font-size: 30px;
     font-weight: 800;
     margin: 50px 0 20px 0;
     z-index: 12;
-    }
-    .tempmin_max{
-        font-size: 14px;
-        font-weight: 400;
-        color: black;
-    }
-    .wave-one {
+}
+
+.tempmin_max {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.wave-one {
     opacity: 0.3;
     position: absolute;
     top: 145%;
@@ -71,32 +81,61 @@
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
     z-index: 1;
-    }
-    .wave-two {
+}
+
+.wave-two {
     animation: drift 5000ms infinite linear;
     z-index: 2 !important;
     opacity: 0.2;
-    }
-    .wave-three {
+}
+
+.wave-three {
     animation: drift 7000ms infinite linear;
     z-index: 3 !important;
     opacity: 0.1;
-    }
-    .box::after {
+}
+
+.box::after {
     content: "";
     display: block;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    z-index:11;
+    z-index: 11;
     transform: translate3d(0, 0, 0);
-    }
-    @keyframes drift {
+}
+
+@keyframes drift {
     from {
-    transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     from {
-    transform: rotate(360deg);
+        transform: rotate(360deg);
     }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
     }
+
+    .box {
+        width: 75%;
+        height: 60vh;
+    }
+
+    .info {
+        margin-top: 40%;
+    }
+
+    .info .temp {
+        margin: 70px 0 30px 0;
+    }
+
+    .wave-one {
+        top: 125%;
+
+    }
+}
