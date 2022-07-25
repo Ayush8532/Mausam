@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mausam/static/css/main.e3515933.css",
+    "main.js": "/Mausam/static/js/main.0f139b49.js",
+    "index.html": "/Mausam/index.html",
+    "main.e3515933.css.map": "/Mausam/static/css/main.e3515933.css.map",
+    "main.0f139b49.js.map": "/Mausam/static/js/main.0f139b49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3515933.css",
+    "static/js/main.0f139b49.js"
+  ]
+}
