@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Mausam/static/css/main.eaf324b9.css",
+    "main.css": "/Mausam/static/css/main.d70d5001.css",
     "main.js": "/Mausam/static/js/main.0f139b49.js",
     "index.html": "/Mausam/index.html",
-    "main.eaf324b9.css.map": "/Mausam/static/css/main.eaf324b9.css.map",
+    "main.d70d5001.css.map": "/Mausam/static/css/main.d70d5001.css.map",
     "main.0f139b49.js.map": "/Mausam/static/js/main.0f139b49.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaf324b9.css",
+    "static/css/main.d70d5001.css",
     "static/js/main.0f139b49.js"
   ]
 }
